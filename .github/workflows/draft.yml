@@ -1,4 +1,4 @@
-name: curvenote
+name: Create Preview Draft from PR
 on:
   pull_request:
     branches: ['main']
@@ -6,14 +6,10 @@ permissions:
   contents: read
   pull-requests: write
 jobs:
-  publish:
-    uses: curvenote/actions/.github/workflows/publish.yml@v1
+  draft:
+    uses: curvenote/actions/.github/workflows/draft.yml@v1
     with:
-      monorepo: false
       id-pattern-regex: '^ubcgif-(?:[a-zA-Z0-9-_]{3,40})$'
-      enforce-single-folder: false
-      preview-label: paper
-      submit-label: true
       venue: appliedgeophysics
       collection: presentations
       kind: article
