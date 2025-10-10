@@ -2,7 +2,7 @@ version: 1
 project:
   id: ubcgif-2024-heagy-simew
   title: Inversion, visualization, and open-source tools
-  # description: DESCRIPTION
+  description: Introduction to inversion presented at the Geophysics Day at the Student-Industry Mineral Exploration Workshop (S-IMEW)
   authors:
     - name: Lindsey J. Heagy
       email: lheagy@eoas.ubc.ca
@@ -11,12 +11,12 @@ project:
       affiliation:
         id: ubc
         name: Department of Earth, Ocean and Atmospheric Sciences, University of British Columbia, Vancouver, British Columbia
-  # banner: banner.png
+  banner: banner.png
   thumbnail: thumbnail.png
   # subject: Electromagnetics
   venue:
-    # title: CONFERENCE NAME
-    # url: CONFERENCE URL
+    title: PDAC Student-Industry Mineral Exploration Workshop (S-IMEW)
+    url: https://pdac.ca/student-early-career/s-imew/s-imew-alumni/s-imew-2024
   license: CC-BY-4.0
   open_access: true
   # doi: DOI
